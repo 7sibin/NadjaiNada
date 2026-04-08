@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dekoracije Najda & Nada — svadbena i rodjendanska dekoracija, Beograd i okolina. Kontakt: 064 083 5242">
+<title>Nadja & Nada — Premium Event Dekoracije</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="curR"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo">
+    <img src="galerija/logo.jpg" alt="Dekoracije Najda & Nada" class="nav-logo-img">
+    <span class="nav-logo-text">Najda & Nada</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#o-nama">O nama</a></li>
+    <li><a href="#usluge">Usluge</a></li>
+    <li><a href="#galerija">Galerija</a></li>
+    <li><a href="#recenzije">Recenzije</a></li>
+  </ul>
+  <a href="#kontakt" class="nav-cta">Kontakt</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="pocetna">
+  <div class="hero-shimmer"></div>
+  <div class="ring ring-1"></div>
+  <div class="ring ring-2"></div>
+  <div class="ring ring-3"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow"><span></span>svadbena & rodjendanska dekoracija<span></span></p>
+    <h1 class="hero-title">Najda & Nada</h1>
+    <p class="hero-subtitle-script">Svaki detalj govori priču o ljubavi</p>
+    <div class="hero-divider"><span class="hero-divider-icon">✦</span></div>
+    <p class="hero-desc">Kreiramo nezaboravne atmosfere za venčanja, rodjendane i posebne prilike u Beogradu i okolini. Vaši snovi — naša umetnost.</p>
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="document.getElementById('galerija').scrollIntoView({behavior:'smooth'})">Pogledajte radove</button>
+      <button class="btn-outline" onclick="document.getElementById('kontakt').scrollIntoView({behavior:'smooth'})">Zakažite konsultaciju</button>
+    </div>
+  </div>
+
+  <div class="scroll-hint" onclick="document.getElementById('o-nama').scrollIntoView({behavior:'smooth'})">
+    <span>Skrolujte</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- BRAND STRIP -->
+<div class="brand-strip">
+  <div class="brand-strip-inner" id="strip">
+    <span class="brand-strip-item">Venčanja</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Krštenja</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Rodjendani</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Godišnjice</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Cvetne instalacije</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Balonske dekoracije</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Korporativni eventi</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Venčanja</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Krštenja</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Rodjendani</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Godišnjice</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Cvetne instalacije</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Balonske dekoracije</span><span class="brand-strip-dot"></span>
+    <span class="brand-strip-item">Korporativni eventi</span><span class="brand-strip-dot"></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="o-nama">
+  <div class="section">
+    <div class="about-grid">
+      <div class="about-visual reveal-left">
+        <div class="about-card-big">
+          <img src="galerija/nasaprica.png" alt="Naša priča — Katarina Nikolića" class="about-photo">
+        </div>
+        <div class="about-card-small">
+          <div class="about-stat">
+            <span class="about-stat-num">500+</span>
+            <span class="about-stat-label">Uspešnih događaja</span>
+          </div>
+          <div style="width:1px;height:40px;background:var(--rose-light);margin:0 1.5rem"></div>
+          <div class="about-stat">
+            <span class="about-stat-num">7+</span>
+            <span class="about-stat-label">Godina iskustva</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <span class="section-label">Naša priča</span>
+        <h2>Sa ljubavlju, za svaki poseban trenutak</h2>
+        <p>Katarina Nikolića je osnivač i kreativni um iza brenda Dekoracije Najda & Nada. Svoju strast prema lepoti, detaljima i emocijama pretvorila je u umetnost dekoracije koja ostavlja bez daha.</p>
+        <p>Od intimnih porodičnih proslava do raskošnih venčanja — Katarina je tu da svaki vaš san pretvori u stvarnost, u Beogradu i okolini.</p>
+        <div class="about-signature">Katarina</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<div class="services-bg" id="usluge">
+  <div class="section">
+    <div class="section-header reveal">
+      <span class="section-label">Šta nudimo</span>
+      <h2 class="section-title">Naše usluge</h2>
+      <p class="section-desc">— svaka proslava zaslužuje savršen dekor —</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal" style="transition-delay:0s">
+        <div class="service-card-icon">💍</div>
+        <h3>Venčanja</h3>
+        <p>Romantični dekori koji pretvaraju vaš veliki dan u magičan, nezaboravan trenutak punom elegancije i detalja.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.1s">
+        <div class="service-card-icon">🎈</div>
+        <h3>Baloni & Instalacije</h3>
+        <p>Luksuzne balonske kolone, lukovi i instalacije u vašim bojama, za savršenu fotografisanje i atmosferu.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.2s">
+        <div class="service-card-icon">🌹</div>
+        <h3>Cvetni aranžmani</h3>
+        <p>Sveži i svileni cvetni aranžmani, bukeji i stolni dekori koji donose prirodnu lepotu na svaki sto.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.3s">
+        <div class="service-card-icon">🎂</div>
+        <h3>Rodjendani & Krštenja</h3>
+        <p>Personalizovane teme, candy bar dekoracije i photo zone koje će impresionirati sve vaše goste.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.4s">
+        <div class="service-card-icon">✨</div>
+        <h3>Tablescape & Styling</h3>
+        <p>Kompletan styling stola — od stolnjaka, svećnjaka, servileta do sitnih detalja koji čine razliku.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+      <div class="service-card reveal" style="transition-delay:0.5s">
+        <div class="service-card-icon">🏛️</div>
+        <h3>Korporativni eventi</h3>
+        <p>Profesionalan pristup za konferencije, godišnjice kompanija i poslovne skupove sa stilom.</p>
+        <span class="service-card-tag">Saznajte više →</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<section id="galerija">
+  <div class="section">
+    <div class="section-header reveal">
+      <span class="section-label">Portfolio</span>
+      <h2 class="section-title">Galerija radova</h2>
+      <p class="section-desc">— naš rad govori sam za sebe —</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="g-item g1">
+        <img src="galerija/1.jpg" alt="Balonska instalacija — venčanje" class="g-img">
+        <span class="g-label">Balonska instalacija — venčanje</span>
+      </div>
+      <div class="g-item g2">
+        <img src="galerija/2.jpg" alt="Krštenje — roze tema" class="g-img">
+        <span class="g-label">Krštenje — roze tema</span>
+      </div>
+      <div class="g-item g3">
+        <img src="galerija/3.jpg" alt="Team Bride tablescape" class="g-img">
+        <span class="g-label">Team Bride styling</span>
+      </div>
+      <div class="g-item g4">
+        <img src="galerija/4.jpg" alt="Krštenje — plava tema" class="g-img">
+        <span class="g-label">Krštenje — plava tema</span>
+      </div>
+      <div class="g-item g5">
+        <img src="galerija/5.jpg" alt="Rodjendanski cvetni dekor" class="g-img">
+        <span class="g-label">Rodjendanski cvetni dekor</span>
+      </div>
+      <div class="g-item g6">
+        <img src="galerija/6.jpg" alt="Rodjendanski dekor — 18. rodjendane" class="g-img">
+        <span class="g-label">Rodjendanski dekor</span>
+      </div>
+      <div class="g-item g7">
+        <img src="galerija/7.jpg" alt="Krštenje — svemirska tema" class="g-img">
+        <span class="g-label">Krštenje — svemirska tema</span>
+      </div>
+      <div class="g-item g8">
+        <img src="galerija/8.jpg" alt="Svadbena dekoracija — Hotel Majdan" class="g-img">
+        <span class="g-label">Svadbena dekoracija</span>
+      </div>
+      <div class="g-item g9">
+        <img src="galerija/9.jpg" alt="Bride to be dekoracija" class="g-img">
+        <span class="g-label">Bride to be</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<div class="process-bg">
+  <div class="section" style="padding-top:0;padding-bottom:0">
+    <div class="section-header reveal">
+      <span class="section-label">Kako radimo</span>
+      <h2 class="section-title" style="color:white">Naš proces</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,0.4)">— od ideje do savršene izvedbe —</p>
+    </div>
+    <div class="process-steps">
+      <div class="step-item reveal" style="transition-delay:0s">
+        <div class="step-top">
+          <div class="step-line-left"></div>
+          <div class="step-num">1</div>
+          <div class="step-line"></div>
+        </div>
+        <h3>Konsultacija</h3>
+        <p>Razgovaramo o vašoj viziji, temi i budžetu. Svaki detalj je važan.</p>
+      </div>
+      <div class="step-item reveal" style="transition-delay:0.15s">
+        <div class="step-top">
+          <div class="step-line-left"></div>
+          <div class="step-num">2</div>
+          <div class="step-line"></div>
+        </div>
+        <h3>Dizajn</h3>
+        <p>Kreiramo mood board i vizualni predlog koji odražava vaš stil.</p>
+      </div>
+      <div class="step-item reveal" style="transition-delay:0.3s">
+        <div class="step-top">
+          <div class="step-line-left"></div>
+          <div class="step-num">3</div>
+          <div class="step-line"></div>
+        </div>
+        <h3>Priprema</h3>
+        <p>Pažljivo biramo materijale i pravimo sve dekoracije sa posebnom pažnjom.</p>
+      </div>
+      <div class="step-item reveal" style="transition-delay:0.45s">
+        <div class="step-top">
+          <div class="step-line-left"></div>
+          <div class="step-num">4</div>
+          <div class="step-line"></div>
+        </div>
+        <h3>Postavljanje</h3>
+        <p>Dolazimo na lokaciju i sve postavljamo do savršenstva pre vašeg dolaska.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section id="recenzije">
+  <div class="section">
+    <div class="section-header reveal">
+      <span class="section-label">Recenzije</span>
+      <h2 class="section-title">Zadovoljne mlade</h2>
+      <p class="section-desc">— reči naših klijenata znače nam najviše —</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal" style="transition-delay:0s">
+        <div class="testi-stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testi-text">Katarina je pretvorila moje venčanje u bajku. Svaki detalj je bio savršen, a cveće je mirisalo ceo salon. Nikad nisam videla nešto ovako lepo!</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MJ</div>
+          <div><div class="testi-name">Milica Jovanović</div><div class="testi-event">Venčanje, Maj 2024</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.1s">
+        <div class="testi-stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testi-text">Za rodjendansku proslavu naše ćerke uradila je neverovatnu transformaciju prostora. Deca su bila oduševljena, a foto zona je bila hit cele proslave!</p>
+        <div class="testi-author">
+          <div class="testi-avatar">AT</div>
+          <div><div class="testi-name">Ana Todorović</div><div class="testi-event">Rodjendanska proslava, Mart 2024</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.2s">
+        <div class="testi-stars"><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div></div>
+        <p class="testi-text">Profesionalna, kreativna i uvek sa osmehom. Naše krštenje je izgledalo kao sa naslovnice magazina. Preporučujem je svima bez razmišljanja!</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SP</div>
+          <div><div class="testi-name">Sara Petrović</div><div class="testi-event">Krštenje, Jun 2024</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-section" id="kontakt">
+  <span class="cta-deco cta-deco-1">✦</span>
+  <span class="cta-deco cta-deco-2">❀</span>
+  <span class="cta-deco cta-deco-3">❋</span>
+  <span class="cta-deco cta-deco-4">✦</span>
+  <div class="reveal">
+    <span class="section-label">Kontaktirajte nas</span>
+    <h2>Osmislimo zajedno vaš savršen dan</h2>
+    <p>Pišite nam i zakažite besplatnu konsultaciju. Sa zadovoljstvom ćemo kreirati dekoraciju iz vaših snova.</p>
+    <div class="contact-form">
+      <div class="form-row">
+        <input class="form-input" type="text" placeholder="Vaše ime">
+        <input class="form-input" type="tel" placeholder="Telefon">
+      </div>
+      <input class="form-input" type="email" placeholder="Email adresa">
+      <input class="form-input" type="text" placeholder="Vrsta događaja (venčanje, rodjendane, krštenje...)">
+      <textarea class="form-input form-textarea" placeholder="Kratko opišite svoju viziju..."></textarea>
+      <button class="btn-form">Pošaljite upit ✦</button>
+    </div>
+    <p style="font-size:0.7rem;color:var(--text-soft);margin-top:1.5rem;font-weight:300">📍 Beograd i okolina &nbsp;·&nbsp; 📞 064 083 5242 &nbsp;·&nbsp; 📸 @najdainada</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <span class="footer-brand-name">Najda & Nada</span>
+      <p class="footer-brand-desc">Svadbena i rodjendanska dekoracija, Beograd i okolina. Svaki detalj sa ljubavlju — Katarina Nikolića.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Usluge</h4>
+      <ul>
+        <li>Venčanja</li>
+        <li>Krštenja</li>
+        <li>Rodjendani</li>
+        <li>Korporativni eventi</li>
+        <li>Cvetni aranžmani</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <ul>
+        <li>📍 Beograd i okolina</li>
+        <li>📞 064 083 5242</li>
+        <li>📸 Instagram: @dekoracije_nadja&nada</li>
+        <li>Facebook: Najda & Nada Deko</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Dekoracije Najda & Nada · Sva prava zadržana</span>
+    <span>Napravljeno sa <span class="footer-heart">♥</span> za svaki poseban trenutak</span>
+  </div>
+</footer>
+<!-- LIGHTBOX -->
+<div class="lightbox-overlay" id="lightbox">
+  <div class="lightbox-inner">
+    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  </div>
+  <button class="lightbox-close" id="lightbox-close">✕</button>
+  <button class="lightbox-prev" id="lightbox-prev">‹</button>
+  <button class="lightbox-next" id="lightbox-next">›</button>
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+</body>
+</html>
